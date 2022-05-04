@@ -240,7 +240,7 @@ CREATE TABLE IF NOT EXISTS `wanted` (
 -- Reloads the privileges from the grant tables in the MySQL system database.
 --
 
-CREATE USER IF NOT EXISTS `arma3`@`localhost` IDENTIFIED BY 'changeme';
+CREATE USER IF NOT EXISTS `arma3`@`localhost` IDENTIFIED BY 'wxcvbn,;:!!:;,,;:!azertyuiop^$*ùù*$';
 GRANT SELECT, UPDATE, INSERT, EXECUTE ON `altislife`.* TO 'arma3'@'localhost';
 FLUSH PRIVILEGES;
 
